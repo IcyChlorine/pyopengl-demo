@@ -6,6 +6,10 @@ That's why I've decided to code the main functionality of Computer Graphics into
 
 So far, I've implemented 6 stages of codes, each containing a basic but key feature in computer graphics. The six feature is directly in the root directory, not wrapped into folders yet.
 
+Despite the convenience provided by Phthon, there's no denying that Python is a poor at *perfomance*, which is very import in Computer Graphics. I've tried `numba`, but it seems to work only for Python programs that is dense in numerical computing. `Pypy` maybe a choice in boosting the perfomance of these codes, which I've planned to try in the future.
+
+Considering the limited *speed* of current code in this repository, it is recommended to use pyopengl as a learning platform to help you understand the fundamental logic and basic workflow of opengl, and then shift to C++ afterwards. I've found such switch interesting and beneficial.
+
 The part below illustrate the first five stages.
 
 ***
